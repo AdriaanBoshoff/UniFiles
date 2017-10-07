@@ -1,0 +1,17 @@
+.unigui_theme {
+		border-left-width: 6px;
+		border-bottom-width: 6px;
+		window-header-height: 26px;
+		tab-header-height: 25px;
+		menu-band-height: 26px;
+		panel-header-height: 25px;
+		panel-header-width: 25px;
+}
+
+.x-theme-color {
+  background-color:#dfe8f6;
+}
+
+.x-grid-row .x-grid-cell-selected {
+  background-color: #b8cfee !important;
+}

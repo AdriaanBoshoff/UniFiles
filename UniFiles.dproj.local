@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/05 20:28:39.000.962,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\MainModule.pas</Transaction>
+    <Transaction>2017/10/05 20:28:39.000.920,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\ServerModule.pas</Transaction>
+    <Transaction>2017/10/05 20:28:41.000.592,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Main.pas</Transaction>
+    <Transaction>2017/10/05 20:28:53.000.753,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/05 20:29:31.000.515,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uLogin.dfm=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.dfm</Transaction>
+    <Transaction>2017/10/05 20:29:31.000.515,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uLogin.pas=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/05 21:02:51.000.863,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/05 21:02:58.000.191,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uTools.pas=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/05 21:02:58.000.191,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uTools.dfm=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.dfm</Transaction>
+    <Transaction>2017/10/05 21:37:53.000.174,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uTools.pas=</Transaction>
+    <Transaction>2017/10/05 21:46:20.000.799,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/05 21:46:27.000.666,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uSettings.dfm=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.dfm</Transaction>
+    <Transaction>2017/10/05 21:46:27.000.666,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uSettings.pas=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 11:24:27.760,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 11:24:35.292,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uVideoPlayer.pas=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.pas</Transaction>
+    <Transaction>2017/10/06 11:24:35.292,C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\uVideoPlayer.dfm=C:\Users\adria\Documents\Embarcadero\Studio\Projects\UniFiles\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

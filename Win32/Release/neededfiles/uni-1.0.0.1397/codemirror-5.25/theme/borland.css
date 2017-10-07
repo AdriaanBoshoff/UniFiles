@@ -1,0 +1,19 @@
+.cm-s-borland  {
+	margin: .4em;
+    padding: 0;
+    font-family: monospace;
+    font-size: 10pt;
+    color: black;
+}
+.cm-s-borland span.cm-keyword {color: blue; font-weight : bold; }
+.cm-s-borland span.cm-number {color: #0000FF;}
+.cm-s-borland span.cm-comment {color: #080; font-style : italic;}
+.cm-s-borland span.cm-string {color: #00F;}
+.cm-s-borland span.cm-string-2 {color: #f50;}
+.cm-s-borland span.cm-directive{color: #008080;}
+.cm-s-borland span.cm-keyword {color: #000080; font-weight : bold; }
+.cm-s-borland span.cm-number {color: #0000FF;}
+.cm-s-borland span.cm-comment {color: #080; font-style : italic;}
+.cm-s-borland span.cm-string {color: #00F;}
+.cm-s-borland span.cm-string-2 {color: #f50;}
+.cm-s-borland span.cm-directive{color: #008080;}
