@@ -14,7 +14,7 @@ object frmlogin: Tfrmlogin
   PixelsPerInch = 96
   TextHeight = 19
   object lblusername: TUniLabel
-    Left = 52
+    Left = 35
     Top = 19
     Width = 77
     Height = 19
@@ -23,9 +23,9 @@ object frmlogin: Tfrmlogin
     TabOrder = 0
   end
   object edtusername: TUniEdit
-    Left = 52
+    Left = 35
     Top = 44
-    Width = 193
+    Width = 229
     Height = 24
     Hint = ''
     Text = ''
@@ -33,7 +33,7 @@ object frmlogin: Tfrmlogin
     OnKeyPress = edtusernameKeyPress
   end
   object lblpassword: TUniLabel
-    Left = 52
+    Left = 35
     Top = 83
     Width = 73
     Height = 19
@@ -42,9 +42,9 @@ object frmlogin: Tfrmlogin
     TabOrder = 2
   end
   object edtpassword: TUniEdit
-    Left = 52
+    Left = 35
     Top = 108
-    Width = 193
+    Width = 229
     Height = 24
     Hint = ''
     PasswordChar = '*'
