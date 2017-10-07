@@ -19,10 +19,8 @@ type
     fileupload1: TUniFileUpload;
     btnsettings: TUniButton;
     pnlinfo: TUniPanel;
-    lblfilename: TUniLabel;
+    lblfileinfo: TUniLabel;
     img1: TUniImage;
-    lblfileextension: TUniLabel;
-    lblfilesize: TUniLabel;
     grpfileoptions: TUniGroupBox;
     btndelete: TUniButton;
     btndownload: TUniButton;
@@ -182,9 +180,9 @@ begin
   filepath := '.\files\' + lstbxfiles.Items[lstbxfiles.ItemIndex];
   FileName := lstbxfiles.Items[lstbxfiles.ItemIndex];
   fileext := ExtractFileExt(filepath);
-  lblfilename.Caption := 'File Name: ' + FileName;
-  lblfileextension.Caption := 'File Extension: ' + fileext;
-  lblfilesize.Caption := 'File Size: ' + IntToStr(FileSize(filepath));
+  lblfileinfo.Caption := 'File Name: ' + FileName
+  + '<br/>' + 'File Extension: ' + fileext
+  + '<br/>' + 'File Size: ' + IntToStr(FileSize(filepath));
   edtrename.Text := FileName;
 
   if (fileext = '.png') or (fileext = '.jpg') or (fileext = '.gif') or

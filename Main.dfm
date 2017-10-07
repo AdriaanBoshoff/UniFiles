@@ -8226,13 +8226,14 @@ object frmmain: Tfrmmain
     DesignSize = (
       395
       685)
-    object lblfilename: TUniLabel
+    object lblfileinfo: TUniLabel
       Left = 6
       Top = 3
-      Width = 62
+      Width = 4
       Height = 16
       Hint = ''
-      Caption = 'File Name:'
+      TextConversion = txtHTML
+      Caption = ''
       ParentFont = False
       Font.Height = -13
       TabOrder = 1
@@ -8246,28 +8247,6 @@ object frmmain: Tfrmmain
       Stretch = True
       Anchors = [akLeft, akBottom]
     end
-    object lblfileextension: TUniLabel
-      Left = 6
-      Top = 25
-      Width = 59
-      Height = 16
-      Hint = ''
-      Caption = 'Extension:'
-      ParentFont = False
-      Font.Height = -13
-      TabOrder = 3
-    end
-    object lblfilesize: TUniLabel
-      Left = 6
-      Top = 47
-      Width = 53
-      Height = 16
-      Hint = ''
-      Caption = 'File Size:'
-      ParentFont = False
-      Font.Height = -13
-      TabOrder = 4
-    end
     object grpfileoptions: TUniGroupBox
       Left = 6
       Top = 88
@@ -8275,7 +8254,7 @@ object frmmain: Tfrmmain
       Height = 169
       Hint = ''
       Caption = 'File Options'
-      TabOrder = 5
+      TabOrder = 3
       object btndelete: TUniButton
         Left = 275
         Top = 31
@@ -8283,6 +8262,8 @@ object frmmain: Tfrmmain
         Height = 41
         Hint = ''
         Caption = 'Delete'
+        ParentFont = False
+        Font.Height = -15
         TabOrder = 1
         OnClick = btndeleteClick
       end
@@ -8293,6 +8274,8 @@ object frmmain: Tfrmmain
         Height = 41
         Hint = ''
         Caption = 'Download'
+        ParentFont = False
+        Font.Height = -15
         TabOrder = 2
         OnClick = btndownloadClick
       end
@@ -8323,6 +8306,8 @@ object frmmain: Tfrmmain
         Height = 25
         Hint = ''
         Caption = 'Rename'
+        ParentFont = False
+        Font.Height = -15
         TabOrder = 5
         OnClick = btnrenameClick
       end
@@ -8334,15 +8319,17 @@ object frmmain: Tfrmmain
         Hint = ''
         Enabled = False
         Caption = 'Play'
+        ParentFont = False
+        Font.Height = -15
         TabOrder = 6
         OnClick = btnplayClick
       end
     end
     object htmlfrmaudio: TUniHTMLFrame
-      Left = 6
+      Left = 47
       Top = 263
-      Width = 386
-      Height = 33
+      Width = 300
+      Height = 32
       Hint = ''
       Visible = False
     end
