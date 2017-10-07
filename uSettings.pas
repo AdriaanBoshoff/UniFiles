@@ -6,7 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics,
   Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
   uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniLabel, uniMultiItem,
-  uniComboBox, uniEdit, uniButton, IniFiles;
+  uniComboBox, uniEdit, uniButton, IniFiles, uniGroupBox;
 
 type
   Tfrmsettings = class(TUniForm)
@@ -20,6 +20,8 @@ type
     edtusername: TUniEdit;
     lblpassword: TUniLabel;
     edtpassword: TUniEdit;
+    grplogin: TUniGroupBox;
+    grpbackgrounds: TUniGroupBox;
     procedure btnokClick(Sender: TObject);
     procedure WriteSettingString(Section, Name, Value: string);
     procedure btncancelClick(Sender: TObject);
